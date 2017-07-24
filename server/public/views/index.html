@@ -5,9 +5,19 @@
     <script type="text/javascript" src="/vendors/angular.min.js"></script>
     <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/message.controller.js"></script>
     <title></title>
   </head>
   <body ng-app="app">
+    <div class="container" ng-controller="MessageController as message">
+      <form>
+        <label for="name">name: </label>
+        <input type="text" placeholder="name" />
+        <label for="message">message: </label>
+        <input type="text" placeholder="messages" />
+        <button ng-click="message.addMessage()">Add Message</button>
+      </form>
+    </div>
 
   </body>
 </html>

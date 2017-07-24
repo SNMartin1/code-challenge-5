@@ -1,0 +1,29 @@
+{
+  "name": "code-challenge-5",
+  "version": "1.0.0",
+  "description": "[x] set up base files     []get server up and running     [] set up controller     [] [] add two inputs to DOM (one for user's name and one for user's message) [] submit button (sends name and message to the database)     [] post route     [] ng click     []",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SNMartin1/code-challenge-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SNMartin1/code-challenge-5/issues"
+  },
+  "homepage": "https://github.com/SNMartin1/code-challenge-5#readme"
+}
